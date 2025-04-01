@@ -12,3 +12,9 @@ class Car {
 
 const myCar = new Car("Tesla");
 myCar.accelerate(50);
+
+class ElectricCar extends Car {
+  constructor(brand: string, public batteryLife: number) {
+    super(brand);
+  }
+}
