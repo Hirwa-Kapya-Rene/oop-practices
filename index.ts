@@ -18,3 +18,4 @@ class ElectricCar extends Car {
     super(brand);
   }
 }
+
