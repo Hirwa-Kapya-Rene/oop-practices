@@ -13,9 +13,9 @@ var Car = /** @class */ (function () {
 
 const http = require('http');
 
-// const server = http.createServer((req, res) => {
-//     res.writeHead(200, { 'Content-Type': 'text/plain' });
-//     res.end('Bonjour Newton Renesto, Node.js fonctionne !');
-// });
+const server = http.createServer((req, res) => {
+    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.end('Bonjour Newton Renesto, Node.js fonctionne !');
+});
 
-// server.listen(3000, () => console.log('Serveur sur http://localhost:3000'));
+server.listen(3000, () => console.log('Serveur sur http://localhost:3000'));
