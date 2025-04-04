@@ -1,4 +1,4 @@
-// var Car = /** @class */ (function () {
+var Car = /** @class */ (function () {
 //     function Car(brand) {
 //         this.brand = brand;
 //         this.speed = 0;
