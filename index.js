@@ -7,8 +7,8 @@ var Car = /** @class */ (function () {
         this.speed += amount;
         console.log("Accelerating to ".concat(this.speed, " km/h"));
     };
-//     return Car;
-// }());
+    return Car;
+}());
 
 
 // const http = require('http');
