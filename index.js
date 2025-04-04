@@ -4,9 +4,9 @@ var Car = /** @class */ (function () {
         this.speed = 0;
     }
     Car.prototype.accelerate = function (amount) {
-//         this.speed += amount;
-//         console.log("Accelerating to ".concat(this.speed, " km/h"));
-//     };
+        this.speed += amount;
+        console.log("Accelerating to ".concat(this.speed, " km/h"));
+    };
 //     return Car;
 // }());
 
